@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.header {}
+
+.header .middle-header {
+    padding: 20px 0;
+    background: #3ba66b;
+    position: relative;
+}
+
+.container,
+.container-fluid {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nd-header-search {
+    line-height: 0;
+}
+
+/* css cho trang chủ, giới thiệu, sản phẩm */
+.header-nav .item_big {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+
+.header-nav .item_big .nav-item a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 10px
+}
+
+/* css cho heart bag user */
+.group-account li {
+    list-style: none;
+}
+
+.group-account .icon {
+    padding: 0px 10px;
+}
+
+.group-account .icon i {
+    font-size: 35px;
+    color: #fff;
+}
+
+/* css cho góc nhọn ở header */
+.header .middle-header:after {
+    content: "";
+    background: url("//bizweb.dktcdn.net/100/431/449/themes/877121/assets/bg-after-header.png?1679553870094") no-repeat top center;
+    position: absolute;
+    width: 100%;
+    height: 47px;
+    bottom: -47px;
+    z-index: 9;
+}
+
+.slide-1 {
+    background-image: url('https://bizweb.dktcdn.net/100/431/449/themes/877121/assets/slider_1.jpg?1679554128426');
+    background-size: cover;
+    /* Tuỳ chỉnh kích thước ảnh cho phù hợp */
+    width: 100%;
+    /* Chiều rộng slide */
+    height: 500px;
+    /* Chiều cao slide */
+}
