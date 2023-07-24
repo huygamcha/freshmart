@@ -5,6 +5,18 @@
     box-sizing: border-box;
 }
 
+.color-primary {
+    color: inherit;
+}
+
+.color-primary:hover {
+    color: #dd2928;
+}
+
+.container {
+    max-width: 1650px;
+}
+
 ul {
     padding: 0;
     list-style: none;
@@ -66,6 +78,7 @@ ul {
     z-index: 9;
 }
 
+/* css banner */
 .slide-1 {
     background-image: url('https://bizweb.dktcdn.net/100/431/449/themes/877121/assets/slider_1.jpg?1679554128426');
     background-size: cover;
@@ -74,4 +87,167 @@ ul {
     /* Chiều rộng slide */
     height: 500px;
     /* Chiều cao slide */
+}
+
+
+/* css cho phần phía dưới banner */
+.cate-list {
+    justify-content: space-between;
+    margin-top: 20px;
+    position: relative;
+}
+
+.cate-list .cate-item {
+    box-shadow: 0px 9px 15px 0px rgba(0, 0, 0, 0.05);
+    height: 280px;
+}
+
+.cate-list img {
+    border-radius: 50%;
+}
+
+.cate-item img:hover {
+    scale: 1.105;
+    box-shadow: 0px 9px 15px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+.cate-item .title-cate {
+    text-align: center;
+    font-weight: normal;
+}
+
+.cate-item a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* phần ưu đãi trong tuần */
+.block-product-wrap {
+    border: 1px solid #dd2928;
+    margin: 100px 0px;
+}
+
+.block-product-item img {
+    width: 100%;
+}
+
+/* phần banner */
+.banner img {
+    border-radius: 40px;
+}
+
+.banner img:first-child {
+    padding-right: 10px;
+}
+
+.banner img:last-child {
+    padding-left: 10px;
+}
+
+.block-product-wrap-content .block-product-item {
+    box-shadow: 0px 9px 15px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    height: 340px;
+
+}
+
+
+.delivery-wrap {
+    position: relative;
+    margin: 60px 0px;
+
+}
+
+.delivery-wrap img {
+    border-radius: 30px;
+}
+
+.delivery-wrap h2 {
+    position: absolute;
+    top: 40%;
+    left: 33%;
+    color: #fff;
+}
+
+.delivery-wrap a {
+    position: absolute;
+    top: 60%;
+    left: 46%;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 30px;
+
+}
+
+/* css cho news */
+.news {
+    position: relative;
+}
+
+.news .new-wrap {
+    position: absolute;
+    color: #000;
+}
+
+.news img:hover {
+    scale: 1.1;
+}
+
+.news .new-wrap a {
+    text-decoration: none;
+    color: #000;
+}
+
+.news .new-wrap a:hover {
+    color: #ffb416;
+}
+
+/* footer  */
+.footer {
+    margin-top: 80px;
+    background: #3ba66b;
+    padding: 50px 0 0;
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+
+.footer:before {
+    content: "";
+    background: url("//bizweb.dktcdn.net/100/431/449/themes/877121/assets/bg-before-footer.png?1679553870094") no-repeat top center;
+    position: absolute;
+    width: 100%;
+    height: 47px;
+    top: -47px;
+    left: 0;
+}
+
+.register {
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+}
+
+/* copyright */
+.copyright {
+    padding: 10px 0px;
+    background: #31955e;
+    color: #fff;
+}
+
+#copyright {
+    display: flex;
+    align-items: center;
+}
+
+.social-footer-list .social-item a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    padding: 0px 10px;
+    margin: 0;
 }
